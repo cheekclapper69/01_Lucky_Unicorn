@@ -91,7 +91,7 @@ while keep_going =="":
         print("Sorry you don't have enough money to continue. Game over")
         keep_going = "end"
     else:
-        keep_going = input("Press <enter> to play agian or any key to quit")
+        keep_going = input("Press <enter> to play again or any key to quit")
     print("-------------------------------------------------------")
 # farewell to user
 print('Thank you for playing.', name)

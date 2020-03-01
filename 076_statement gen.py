@@ -58,9 +58,9 @@ keep_going = ""
 while keep_going =="":
 
     # tokens list
-    tokens = ["Horse",
-              "Zebra",
-              "Donkey", "Unicorn", "Unicorn"]
+    tokens = ["Horse", "Horse" "Horse",
+              "Zebra", "Zebra", "Zebra",
+              "Donkey", "Donkey", "Donkey", "Unicorn"]
 
     # randomly chosen token
     token = random.choice(tokens)
@@ -92,16 +92,10 @@ while keep_going =="":
         keep_going = "end"
     else:
         keep_going = input("Press <enter> to play agian or any key to quit")
-    print("-------------------------------------------------------")
-# farewell to user
-print('Thank you for playing.', name)
-print("-------------------------------")
-
-
-
-
-
-
+    print("---------------------------------------------------")
+    # farewell to user
+    print('Thank you for playing.', name)
+    print("---------------------------")
 
 
 
